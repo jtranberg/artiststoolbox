@@ -1,0 +1,36 @@
+/* globals.css */
+body {
+
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1, h2, h3 {
+    color: #ffffff;  display: flex;
+  
+  }
+
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Scope the styles to the about-page container */
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page h1 {
+  margin-bottom: 1rem;
+}
+
+.page p {
+  max-width: 600px;
+  text-align: center;
+  line-height: 1.6;
+}
