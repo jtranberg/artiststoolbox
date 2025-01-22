@@ -1,8 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "CoverCraft - Your Artist's Toolbox",
+  description: "An amazing tool for artists.",
+};
 export default function Home() {
   return (
+    
     <div className="min-h-screen bg-gradient-to-t from-purple-700 to-orange-500 text-white font-sans relative">
       <Image
         src="/toolbox.png"
@@ -14,11 +19,11 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="flex flex-col items-center justify-center text-center p-8 relative z-10">
-        <h2 className="text-4xl font-bold mb-4">Unleash Your Creativity</h2>
-        <p className="text-lg mb-6">
+        <h2 className="title">Unleash Your Creativity</h2>
+        <p className="greeting">
           Welcome to the Artist Toolbox! This platform is your creative companion, offering a suite of tools to inspire and enhance your projects:
         </p>
-        <ul className="list-disc text-left text-lg mb-6">
+        <ul className="list">
           <li>Text-to-Image Generator: Transform your ideas into stunning visuals.</li>
           <li>Text-to-Lyrics Generator: Bring words to life with custom lyrics.</li>
           <li>Upscaler: Enhance image resolution for better quality.</li>

@@ -1,4 +1,8 @@
 import '../styles/page.css';
+export const metadata = {
+  title: "CoverCraft - Upscaler",
+  description: "An amazing tool for artists.",
+};
 
 export default function About() {
   return (
